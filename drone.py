@@ -2,7 +2,7 @@ from djitellopy import Tello
 from time import sleep
 feet = 30
 speed = 0.5 # percentage of max
-fps = (112/30.4)*speed # feet per second
+fps = (112/30.4)*speed # feet per second, at speed
 
 tello = Tello()
 tello.connect()
